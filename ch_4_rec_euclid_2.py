@@ -1,7 +1,7 @@
 # Implementing Euclidean Algorithm through modulo operator
 
 def rec_euclid_2(a, b):
-    """For simplicity: a must be greater than b"""
+    """Returns GCD using modulo operator"""
     if a % b == 0:
         return b
 
